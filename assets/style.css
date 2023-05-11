@@ -59,7 +59,21 @@ nav a {
     background-color: var(--Gray);
 }
 
+.personal-info {
+    display: flex;
+    justify-content: right;
+    float:left;
+    padding-left: 50px;
+    text-align: left;
+}
 
+p {
+    text-align: left;
+    justify content: 
+    display: flex;
+    padding-left: 30px;
+    width: 85%;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

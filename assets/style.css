@@ -76,7 +76,8 @@ p {
 }
 
 #workpic {
-    background-image: url(./images/Morel_Mushrooms.webp);
+    background-image: url(./images/milky-way.jpeg)
+    
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

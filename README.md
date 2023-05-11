@@ -1,31 +1,28 @@
 # JoelPortfolio
 
 ## Hello Welcome to the readMe. page.
-The motivation behind this page was to refactor the HTML/CSS code to make it be more accessible and condensed. -The improved code does this by changing some classes, ID's, consolidating CSS selectors, properties. -Including a more descriptive page title. -Adding more semantic code. -Adding elements to follow more logical HTML structure. -Including comments in the refractored/changed code structure. -Added accessibility to icons/images for disabled. -Reviewed heading, they were all appropriate.
-
+The motivation behind this page was to make my own website for future employers to see, a work portfolio.  I did this by attempting to make a page that would share my big projects in the future.  This was a very difficult task for me.
 ## What I learned
 Through this project I learned:
-
-How to better manuever around web dev tools.
-The difference between semantic and non-semantic taging.
-How to manage Git and github to work locally and remotely.
-The difference between class and ID's in CSS
-How to add comments in HTML/CSS.
-How to add more accessiblity to a web page.
-Problems I encountered
+* How to add background images to sections
+* How cascading works in css.
+* different CSS formating.
+* That CSS can be tricky.
+* That time invested was time well spent and I learned more. The only problem was I was not able to complete the challenge in the amount of time I was given.
   
 ## Being new to web development I came across some issues you may see obvious such as:
-
- Attempting to change a tag, element and having the page crash.
-Difficulty consolidating css elements.
-Wondering why they have asked me to change headings as they looked appropriate in size?
-Losing some of the page detail in background and not figuring out how I did it.
-
+* Just not understanding how I was able to move some things on the page and other things I could not.
+* Just not understanding why certain images would not be added to my screen when i coded them in.
+* Just not understanding the logic behind CSS?
+* Biggest challenge was having things appear on the screeen when i wanted them to.
  ## Instalation
 N/A
 
 ## Usage
-To view this webpage with the refactoration update copy paste this link in a web browser: https://glansburg.github.io/Horiseon_Refactoration/
+To view this webpage copy and paste this link in a web browser:  http://127.0.0.1:5500/index.html#Resume 
+
+<img width="1248" alt="2023-05-11 (2)" src="https://github.com/Glansburg/JoelPortfolio/assets/117139285/a083b67f-3e4e-45df-835f-523d8577ad07">
 
 ## Credits
+
 Made by Joel Getzke, Duluth MN

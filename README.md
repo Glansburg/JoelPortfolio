@@ -1,4 +1,4 @@
-<JoelPortfolio>
+# JoelPortfolio
 
 ## Hello Welcome to the readMe. page.
 The motivation behind this page was to refactor the HTML/CSS code to make it be more accessible and condensed. -The improved code does this by changing some classes, ID's, consolidating CSS selectors, properties. -Including a more descriptive page title. -Adding more semantic code. -Adding elements to follow more logical HTML structure. -Including comments in the refractored/changed code structure. -Added accessibility to icons/images for disabled. -Reviewed heading, they were all appropriate.

@@ -1,3 +1,10 @@
+:root {
+--dark: rgba(0, 0, 0, 0.886);
+--Gray: #808080;
+--light: #0000ff;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,86 +12,95 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-h1 {
-    background-color: rgba(0, 0, 255, 0.637);
-    margin-right: 83%; 
-    flex-direction: row; 
+#name {
+    background-color: var(--light);
+    font-size: 45px;
+    margin-right: 
 }
 
 header {
-    background-image: url("./images/BlueCheckers.jpg");
+    display: flex;
     width: 100%;
     height: 10vh;
-    padding: 0 10%;
+    align-items: center;
     background: gray;
+    justify-content: space-between;
 }
 
 #page-cover {
-background-image: url(./images/BlueCheckers.jpg);
+display: flex;
+justify-content: space-between;
+background-position: center;
+height: 150px;
+background-image: url(./images/BlueCheckers.jpg) 
+
 }
 
-nav {
-    width: 100%;
+h4 span{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
+    flex-direction: row-reverse;
+    margin-left: 1250px;
+}
+
+
+nav a {
+    
+    list-style: none;
+    margin: 10px 30px;
+    font-size: 120%;
+    background-color: white;
     flex-direction: row-reverse;
 }
    
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 30px;
-    margin-bottom: 70%;
-    font-size: 120%;
-    background-color: white;
-    
+
+
+#subtitle {
+    font-size: 35px;
+    background-color: var(--Gray);
 }
-
-nav ul li a{
-    position:sticky;
-    
-}
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    p {
+    p h1 nav {
         font-size: 1.25rem;
+        display: flex;
     }
     }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) { 
-    p {
+    h1 nav ul {
         font-size:1.5rem;
         line-height: 1.5rem;
+        display: flex;
     }
     }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
      
-        p {
+        h1 nav ul {
             font-size:1.75rem;
             line-height: 1.75rem;
+            display: flex;
+            
         }
         }
     
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    p {
+    h1 nav ul {
         font-size:1.75rem;
         line-height: 1.75rem;
+        display: flex;
     }
     }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) { 
-    p {
+    h1 nav ul {
     font-size:1.75rem;
     line-height: 1.75rem;
+    display: flex;
 }
 }

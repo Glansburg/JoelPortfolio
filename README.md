@@ -19,7 +19,7 @@ Through this project I learned:
 N/A
 
 ## Usage
-To view this webpage copy and paste this link in a web browser:  http://127.0.0.1:5500/index.html#Resume 
+To view this webpage copy and paste this link in a web browser: https://glansburg.github.io/JoelPortfolio/
 
 <img width="1248" alt="2023-05-11 (2)" src="https://github.com/Glansburg/JoelPortfolio/assets/117139285/a083b67f-3e4e-45df-835f-523d8577ad07">
 

@@ -15,7 +15,7 @@
 #name {
     background-color: var(--light);
     font-size: 45px;
-    margin-right: 
+
 }
 
 header {
@@ -42,16 +42,28 @@ h4 span{
     margin-left: 1250px;
 }
 
+nav {
+display: flex;
+width: 500px;
+justify-content: space-between;
+margin-right: 100px;
+
+}
+
 
 nav a {
     
     list-style: none;
-    margin: 10px 30px;
     font-size: 120%;
     background-color: white;
     flex-direction: row-reverse;
+    text-decoration-color: var(--light);
+    
 }
    
+.hover-feature:hover {
+   background-color:gold;
+}
 
 
 #subtitle {

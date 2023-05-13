@@ -1,7 +1,7 @@
 :root {
 --dark: rgba(0, 0, 0, 0.886);
---Gray: #808080;
---light: #0000ff;
+--R: rgb(218, 73, 73);
+--light: #4343e8;
 }
 
 
@@ -23,18 +23,28 @@ header {
     width: 100%;
     height: 10vh;
     align-items: center;
-    background: gray;
+    background-color: rgb(218, 73, 73);
     justify-content: space-between;
 }
 
-#page-cover {
-display: flex;
-justify-content: space-between;
-background-position: center;
-height: 150px;
-background-image: url(./images/BlueCheckers.jpg) 
-
+.pageCover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 20px;
+    background-image: url("./images/Abstract.jpg");
+    background-position: center;
+    background-size:cover;
 }
+
+figure h1 {
+    display: flex;
+    font-size: 20px;
+    align-items: end;
+}
+
 
 h4 span{
     display: flex;
@@ -67,16 +77,54 @@ nav a {
 
 
 #subtitle {
-    font-size: 35px;
-    background-color: var(--Gray);
+    display: flex;
+    align-self: flex-end;
+    font-size: 12px;
+    
+}
+
+#quote {
+    
+}
+
+main {
+    background-color: var(--R);
+}
+
+#HotAirBalloon {
+    display: flex;
+    margin-top: 25px;
+    height:80%;
+    justify-content: center;
+}
+
+div {
+    display: block;
 }
 
 .personal-info {
+    height: 600px;
     display: flex;
-    justify-content: right;
-    float:left;
     padding-left: 50px;
     text-align: left;
+}
+
+.projects {
+    flex: 1;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#big-project {
+    border: 1px solid green;
+    height:50%;
+    width: 100%;
+}
+
+.small-projects {
+    border: 1px solid blueviolet;
+    height: 25%;
+    width: 50%;
 }
 
 p {

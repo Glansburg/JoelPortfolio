@@ -87,6 +87,8 @@ nav a {
 
 main {
     background-color: var(--R);
+
+    
 }
 
 section h2 {
@@ -98,7 +100,7 @@ section h2 {
     padding-right: 10px;
 }
 
-.main-content {
+#about-me {
     display: inline;
     padding-top:0px;
     border-left: 5px solid blue;
@@ -129,10 +131,12 @@ div {
 }
 
 #big-project {
-    border: 1px solid green;
+    border: 10px solid rgb(218, 57, 57);
     height:50%;
     width: 84.3%;
     margin-left: 50px;
+    background-image: url(./images/Lobster_mushroom.png);
+    background-size:cover;
 }
 
 .small-projects {
@@ -144,6 +148,26 @@ div {
     
 }
 
+#smallOne {
+    background-image: url(./images/Amanita.jpg);
+    background-size: cover;
+}
+
+#smallTwo {
+    background-image: url(./images/Chanterelles.jpeg);
+    background-size: cover;
+}
+
+#smallThree {
+    background-image: url(./images/Oysters.jpg);
+    background-size: cover;
+}
+
+#smallFour {
+    background-image: url(./images/Chanterelles.jpeg);
+    
+}
+
 p {
   
     text-align: left;
@@ -152,10 +176,7 @@ p {
     width: 85%;
 }
 
-#workpic {
-    background-image: url(./images/milky-way.jpeg)
-    
-}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     p h1 nav {

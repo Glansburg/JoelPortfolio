@@ -1,7 +1,7 @@
 :root {
---dark: rgba(0, 0, 0, 0.886);
---R: rgb(218, 73, 73);
---light: #4343e8;
+    --dark: rgba(0, 0, 0, 0.886);
+    --R: rgb(218, 73, 73);
+    --light: #4343e8;
 }
 
 
@@ -36,7 +36,7 @@ header {
     padding: 20px;
     background-image: url("./images/Abstract.jpg");
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
 figure h1 {
@@ -46,33 +46,33 @@ figure h1 {
 }
 
 
-h4 span{
+h4 span {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 1250px;
 }
 
 nav {
-display: flex;
-width: 500px;
-justify-content: space-between;
-margin-right: 100px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-right: 100px;
 
 }
 
 
 nav a {
-    
+
     list-style: none;
     font-size: 120%;
     background-color: white;
     flex-direction: row-reverse;
     text-decoration-color: var(--light);
-    
+
 }
-   
+
 .hover-feature:hover {
-   background-color:gold;
+    background-color: gold;
 }
 
 
@@ -80,7 +80,7 @@ nav a {
     display: flex;
     align-self: flex-end;
     font-size: 12px;
-    
+
 }
 
 
@@ -88,7 +88,7 @@ nav a {
 main {
     background-color: var(--R);
 
-    
+
 }
 
 section h2 {
@@ -96,20 +96,38 @@ section h2 {
     text-align: right;
     align-items: top;
     color: black;
-    width: 10%;
+    width: 20%;
     padding-right: 10px;
 }
 
 #about-me {
     display: inline;
-    padding-top:0px;
+    padding-top: 0px;
     border-left: 5px solid blue;
-    width: 85%; 
+    width: 85%;
+    height:
 }
+
+#contact-me {
+    display: inline;
+    padding-top: 0px;
+    border-left: 5px solid blue;
+    width: 85%;
+}
+
+#resume {
+    display: inline;
+    padding-top: 0px;
+    border-left: 5px solid blue;
+    width: 85%;
+}
+
+
+
 #HotAirBalloon {
     display: flex;
-    margin-top: 25px;
-    height:70%;
+    margin-top: 1x;
+    height: 70%;
     justify-content: center;
 }
 
@@ -120,11 +138,11 @@ div {
 
 
 #section-about-me {
-    height: 600px;
+    height: 500px;
     display: flex;
 
     padding-left: 50px;
-    text-align:left;
+    text-align: left;
 }
 
 .section-work {
@@ -132,7 +150,7 @@ div {
     display: flex;
 
     padding-left: 50px;
-    text-align:left;
+    text-align: left;
 }
 
 #section-contact-me {
@@ -140,14 +158,14 @@ div {
     display: flex;
     margin-top: 100px;
     padding-left: 50px;
-    text-align:left;
+    text-align: left;
 }
 
 #section-resume {
     height: 300px;
     display: flex;
     padding-left: 50px;
-    text-align:left;
+    text-align: left;
 }
 
 
@@ -156,17 +174,18 @@ div {
 
 .projects {
     flex: 1;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
+    height:600px;
 }
 
 #big-project {
     border: 10px solid rgb(218, 57, 57);
-    height:50%;
+    height: 50%;
     width: 84.3%;
     margin-left: 50px;
     background-image: url(./images/Lobster_mushroom.png);
-    background-size:cover;
+    background-size: cover;
 }
 
 .small-projects {
@@ -175,7 +194,7 @@ div {
     width: 40%;
     margin-left: 50px;
     margin-top: 20px;
-    
+
 }
 
 #smallOne {
@@ -197,14 +216,14 @@ div {
 #smallFour {
     background-image: url(./images/Morel_Mushrooms.webp);
     background-position: center;
-    
-    
+
+
 }
 
 .photolinks {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 500px;
     z-index: 10;
@@ -213,7 +232,7 @@ div {
 }
 
 p {
-  
+
     text-align: left;
     display: flex;
     padding-left: 30px;
@@ -221,7 +240,7 @@ p {
 }
 
 section h4 {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
@@ -229,53 +248,54 @@ section h4 {
 }
 
 
-
 .personal-links {
-display: flex;
-justify-content:center
+    display: flex;
+    justify-content: flex-end;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     p h1 nav {
         font-size: 1.25rem;
         display: flex;
     }
-    }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) { 
+@media only screen and (min-width: 600px) {
     h1 nav ul {
-        font-size:1.5rem;
+        font-size: 1.5rem;
         line-height: 1.5rem;
         display: flex;
     }
-    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-     
-        h1 nav ul {
-            font-size:1.75rem;
-            line-height: 1.75rem;
-            display: flex;
-            
-        }
-        }
-    
+
+    h1 nav ul {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        display: flex;
+
+    }
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     h1 nav ul {
-        font-size:1.75rem;
+        font-size: 1.75rem;
         line-height: 1.75rem;
         display: flex;
     }
-    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { 
+@media only screen and (min-width: 1200px) {
     h1 nav ul {
-    font-size:1.75rem;
-    line-height: 1.75rem;
-    display: flex;
-}
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        display: flex;
+    }
 }

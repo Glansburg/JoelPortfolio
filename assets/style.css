@@ -117,12 +117,42 @@ div {
     display: block;
 }
 
-.personal-info {
+
+
+#section-about-me {
     height: 600px;
     display: flex;
+
     padding-left: 50px;
-    text-align: left;
+    text-align:left;
 }
+
+.section-work {
+    height: 600px;
+    display: flex;
+
+    padding-left: 50px;
+    text-align:left;
+}
+
+#section-contact-me {
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+    padding-left: 50px;
+    text-align:left;
+}
+
+#section-resume {
+    height: 300px;
+    display: flex;
+    padding-left: 50px;
+    text-align:left;
+}
+
+
+
+
 
 .projects {
     flex: 1;
@@ -140,7 +170,7 @@ div {
 }
 
 .small-projects {
-    border: 1px solid blueviolet;
+    border: 10px solid rgb(218, 57, 57);
     height: 25%;
     width: 40%;
     margin-left: 50px;
@@ -151,6 +181,7 @@ div {
 #smallOne {
     background-image: url(./images/Amanita.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #smallTwo {
@@ -164,7 +195,9 @@ div {
 }
 
 #smallFour {
-    background-image: url(./images/Chanterelles.jpeg);
+    background-image: url(./images/Morel_Mushrooms.webp);
+    background-position: center;
+    
     
 }
 
@@ -193,9 +226,14 @@ section h4 {
     align-items: center;
     height: 50px;
     background-color: var(--light);
-    
 }
 
+
+
+.personal-links {
+display: flex;
+justify-content:center
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     p h1 nav {

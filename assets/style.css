@@ -105,6 +105,7 @@ section h2 {
     padding-top: 0px;
     border-left: 5px solid blue;
     width: 85%;
+    height: 100%;
 }
 
 #contact-me {
@@ -131,7 +132,7 @@ div {
 #section-about-me {
     height: 300px;
     display: flex;
-
+    margin-bottom: 50px;
     padding-left: 50px;
     text-align: left;
 }
@@ -143,7 +144,7 @@ div {
 .section-work {
     height: 600px;
     display: flex;
-
+    margin-bottom: 50px;
     padding-left: 50px;
     text-align: left;
 }
@@ -151,9 +152,10 @@ div {
 #section-contact-me {
     height: 300px;
     display: flex;
-    margin-top: 100px;
     padding-left: 50px;
     text-align: left;
+    margin-bottom: 50px;
+    
 }
 
 #section-resume {
@@ -161,6 +163,7 @@ div {
     display: flex;
     padding-left: 50px;
     text-align: left;
+    margin-top: 50px;
 }
 
 
@@ -168,12 +171,13 @@ div {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    height:600px;
+    height:100%;
+    
 }
 
 #big-project {
     border: 10px solid rgb(218, 57, 57);
-    height: 50%;
+    height: 40%;
     width: 84.3%;
     margin-left: 50px;
     background-image: url(./images/Lobster_mushroom.png);
@@ -185,7 +189,7 @@ div {
     height: 25%;
     width: 40%;
     margin-left: 50px;
-    margin-top: 20px;
+  
 
 }
 
@@ -193,6 +197,7 @@ div {
     background-image: url(./images/Amanita.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 #smallTwo {
@@ -273,6 +278,7 @@ section h4 {
     }
 }
 
+/* JUST MAKE THREE */
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -284,7 +290,7 @@ section h4 {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     h1 nav ul {
         font-size: 1.75rem;
         line-height: 1.75rem;
@@ -292,11 +298,12 @@ section h4 {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
     h1 nav ul {
         font-size: 10rem;
         line-height: 1.75rem;
         display: flex;
+        flex-direction: column;
 
     }
 }

@@ -175,6 +175,7 @@ div {
     
 }
 
+
 #big-project {
     border: 10px solid rgb(218, 57, 57);
     height: 40%;
@@ -247,7 +248,7 @@ section h4 {
 
 .personal-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 /* Extra small devices (phones, 600px and down) */

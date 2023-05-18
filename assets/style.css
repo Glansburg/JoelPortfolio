@@ -1,10 +1,12 @@
+
+/* main colors for page*/
 :root {
     --dark: rgba(0, 0, 0, 0.886);
     --R: rgb(218, 73, 73);
     --light: #4343e8;
 }
 
-
+/* good default settings*/
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +14,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* name of web dev*/
 #name {
     background-color: var(--light);
     font-size: 45px;
 
 }
-
+/* tagging header*/
 header {
     display: flex;
     width: 100%;
@@ -26,7 +29,7 @@ header {
     background-color: rgb(218, 73, 73);
     justify-content: space-between;
 }
-
+/* the header cover */
 .pageCover {
     display: flex;
     justify-content: space-between;
@@ -70,12 +73,12 @@ nav a {
     text-decoration-color: var(--light);
 
 }
-
+/* hover feature for top right of page */
 .hover-feature:hover {
     background-color: gold;
 }
 
-
+/* subtitle top right of page */
 #subtitle {
     display: flex;
     align-self: flex-end;
@@ -99,7 +102,7 @@ section h2 {
     width: 20%;
     padding-right: 10px;
 }
-
+/* about me section */
 #about-me {
     display: inline;
     padding-top: 0px;
@@ -107,14 +110,14 @@ section h2 {
     width: 85%;
     height: 100%;
 }
-
+/* contact me section */
 #contact-me {
     display: inline;
     padding-top: 0px;
     border-left: 5px solid blue;
     width: 85%;
 }
-
+/* resume section */
 #resume {
     display: inline;
     padding-top: 0px;
@@ -166,7 +169,7 @@ div {
     margin-top: 50px;
 }
 
-
+/* work projects */
 .projects {
     flex: 1;
     display: flex;
@@ -175,7 +178,7 @@ div {
     
 }
 
-
+/* biggest project goes here */
 #big-project {
     border: 10px solid rgb(218, 57, 57);
     height: 40%;
@@ -193,7 +196,7 @@ div {
   
 
 }
-
+/* small projects 1-4 */
 #smallOne {
     background-image: url(./images/Amanita.jpg);
     background-size: cover;
